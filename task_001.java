@@ -31,7 +31,7 @@ public class task_001 {
         else writeFile(positivPow(a, b)); 
     }
 
-    // Метод считывания файла:
+
     public static int[] readFile() throws FileNotFoundException {
         File file = new File("input.txt"); 
         Scanner scanner = new Scanner(file); 
